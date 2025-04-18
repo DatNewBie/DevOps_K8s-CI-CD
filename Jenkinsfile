@@ -9,7 +9,7 @@ pipeline {
     }
 
     environment {
-        REPO_URL = 'https://github.com/ntquan/nodejs-app-ci-cd.git'
+        REPO_URL = 'https://github.com/DatNewBie/DevOps_K8s-CI-CD.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
         IMAGE_NAME = 'ntquan87/nodejs-app-ci-cd'
     }
